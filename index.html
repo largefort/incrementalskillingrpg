@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Incremental RPG Skilling Game</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Skilling RPG</h1>
+        <p>Level: <span id="level">1</span></p>
+        <p>Experience: <span id="experience">0</span></p>
+        <p>Health: <span id="health">100</span></p>
+        <p>Resources: <span id="resources">0</span></p>
+        <button onclick="skill('attack')">Attack</button>
+        <button onclick="skill('defend')">Defend</button>
+        <button onclick="skill('heal')">Heal</button>
+        <button onclick="gather()">Gather</button>
+        <button onclick="train()">Train</button>
+        <div id="enemy-container">
+            <p>Enemy: <span id="enemy-name"></span></p>
+            <button onclick="fight()">Fight</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
