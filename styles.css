@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#click-button, #buy-auto-clicker, #buy-money-printer {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#enemy-container {
+    margin-top: 20px;
+}
+
+p {
+    margin: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.alert {
+    background-color: #f2dede;
+    color: #a94442;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ebccd1;
+    border-radius: 4px;
+}
+
+/* Add more styles as needed */
